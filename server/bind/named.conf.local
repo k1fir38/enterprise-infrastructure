@@ -1,0 +1,7 @@
+//
+// Do any local configuration here
+//
+zone "company.local"{
+    type master;
+    file "/etc/bind/db.company.local";
+};
